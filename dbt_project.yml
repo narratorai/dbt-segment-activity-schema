@@ -11,5 +11,12 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
+
+models:
+  segment_activity_schema:
+    +materialized: table
+    intermediate:
+      +materialized: ephemeral
+
 vars:
   segment_page_views_table: "{{ source('segment_source', 'pages') }}"
