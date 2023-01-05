@@ -2,7 +2,7 @@
 
 # Segment - Activity Schema
 
-This packages builds activity stream tables for Segment page views. To learn more about the activity schema visit the (home page)[https://www.activityschema.com]
+This packages builds activity stream tables for Segment page views. To learn more about the activity schema visit the [home page](https://www.activityschema.com)
 
 > This package is built and supported by [Narrator](https://www.narratordata.com), which provides a full end-to-end activity schema implementation.
 
@@ -34,7 +34,7 @@ vars:
 Table name: `activity_stream_viewed_page__segment`
 
 **started_session**
-(TBD)
+Table name: `activity_stream_started_session__segment`
 
 
 ## Contributions
